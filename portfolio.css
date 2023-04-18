@@ -317,7 +317,11 @@ form.btn2{
     color: #ff004f;
 }
 /*-----------------Small Screen--------------*/
-nav.fa{
+nav img{
+    display: none;
+}
+nav img.logo{
+    width: 140px;
     display: inline-block;
 }
 @media only screen and (max-width:600px){
@@ -331,10 +335,13 @@ nav.fa{
     .header-text h1{
         font-size: 30px;
     }
-    nav.fa{
+    nav img{
         display: block;
         font-size: 25px;
-    }
+        width: 10%;
+        height: 10%;
+       }
+   
     nav ul{
         background: #ad921c;
         position: fixed;
@@ -350,10 +357,10 @@ nav.fa{
         display: block;
         margin: 25px;
     }
-    nav ul.fa{
+    nav ul img{
         position: absolute;
         top: 25px;
-        left: 25px;
+        left: 15px;
         cursor: pointer;
     }
     .sub-title{
