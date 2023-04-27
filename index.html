@@ -19,9 +19,9 @@
                     <li><a href="#services">Services</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <img src="port/close.png" onclick="closemenu">
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
                 </ul>
-                <img src="port/menu.png" onclick="openmenu">
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
                 <p>PRODUCT DESIGNER</p>
@@ -173,7 +173,7 @@
         }
     </script>
     <script>
-        var sidemenu=img.getElementsById ("sidemenu");
+        var sidemeu=document.getElementById(sidemenu);
         function openmenu(){
             sidemenu.style.right="0";
         }
