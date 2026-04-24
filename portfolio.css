@@ -14,7 +14,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image:url(port/back\ 2.png);
+    background-image:url(port/FULL.png);
      background-size: cover;
      background-position: center;
 }
@@ -326,7 +326,7 @@ nav img.logo{
 }
 @media only screen and (max-width:600px){
     #header{
-        background-image: url(port/back\ 2\ 1.png);
+        background-image: url(port/Passport.png);
     }
     .header-text{
         margin-top:100%;
