@@ -8,7 +8,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: #6c60b9;
+    background: #0d0928;
     color: #fff;
 }
 #header{
@@ -45,7 +45,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #081b57;
+    background: #1c1f28;
     position: absolute;
     left:0;
     bottom: -6px; 
@@ -64,7 +64,7 @@ nav ul li a:hover::after{
 
 }
 .header-text h1 span{
-    color: #081b57;
+    color: #083143;
 }
 /*-----------------about--------------*/
 #about{
